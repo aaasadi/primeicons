@@ -35,6 +35,7 @@ input, fieldset {
   border: 0;
 }
 input {
+  font-family: primeicons, serif;
   color: inherit;
   line-height: 1.5;
   height: 1.5em;
@@ -46,11 +47,6 @@ input:focus {
 }
 .glyph {
   font-size: 16px;
-  width: 15em;
-  padding-bottom: 1em;
-  margin-right: 4em;
-  margin-bottom: 1em;
-  float: left;
   overflow: hidden;
 }
 .liga {
@@ -110,20 +106,18 @@ p {
   padding-top: .25em;
 }
 .unit {
-  float: left;
+  float: inline-end;
+  text-align: end;
 }
 .unitRight {
-  float: right;
+  float: inline-start;
+  text-align: start;
 }
 .size1of2 {
   width: 50%;
 }
 .size1of1 {
   width: 100%;
-}
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
 }
 .clearfix:after {
   clear: both;
@@ -144,9 +138,43 @@ p {
   line-height: 1.5;
 }
 .fs0 {
-  font-size: 16px;
+  font-size: 18px;
 }
 .fs1 {
-  font-size: 64px;
+  font-size: 32px;
 }
-
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.header-wrapper {
+  height: 100px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.rtl-support {
+  direction: ltr;
+}
+.rtl-support button {
+  margin-inline-start: 0.5rem;
+  background-color: #326fd1;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1rem;
+}
