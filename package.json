@@ -1,16 +1,16 @@
 {
-  "name": "primeicons",
-  "version": "7.0.1-SNAPSHOT",
-  "description": "Icon Library for Prime UI Libraries",
+  "name": "primeiconsrtl",
+  "version": "1.0.0",
+  "description": "An icon library, forked from PrimeIcons, with full support for right-to-left (RTL) languages.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/primefaces/primeicons.git"
+    "url": "git+https://github.com/aaasadi/primeicons.git"
   },
   "keywords": ["Icon"],
-  "author": "PrimeTek",
+  "author": "Amir Abbas Asadi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/primefaces/primeicons/issues"
+    "url": "https://github.com/aaasadi/primeicons/issues"
   },
-  "homepage": "https://github.com/primefaces/primeicons#readme"
+  "homepage": "https://github.com/aaasadi/primeicons#readme"
 }
